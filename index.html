@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>Animal Identification Voice</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+
+  <body>
+    <div class="col-xs-12 header_div text-center">
+     <h2>Animal  Identification Voice</h2>
+     <p> Note - Play different sounds like bark, roar, meow etc to identify that animal</p>
+    </div>
+    <div class="main_div"> 
+      <br>
+      <center>
+     <button class="btn " onclick = "SoundIdentification()">Identify the sound </button>
+     <br>
+     <h3 id="Result_Sound">I can hear - </h3>
+     <h3 id="Result_Accuracy">Accuracy - </h3>
+    
+     <img src="animal1.jpg" id="animal1" width="300" height="300">
+     <img src="animal2.jpg" id="animal2" width="300" height="300">
+     <img src="animal3.jpg" id="animal3" width="300" height="300">
+     <img src="animal4.png" id="animal4" width="300" height="300">
+    </center>
+  </div>
+     <div class="copy_right_footer"> By Naman Mittal</div>
+<script src="main.js"></script>
+  </body>
+</html>
